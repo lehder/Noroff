@@ -1,0 +1,91 @@
+/* .loader {
+    display: none;
+} */
+.show {
+    display: block;
+}
+.hidden {
+    display: none;
+}
+.load-button {
+    border: 1px solid rgb(47, 46, 46);
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 600px;
+    font-size: 1.5rem;
+    background-color:aqua;
+}
+.button-user {
+    margin-top: 50px;
+    border: 1px solid green;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 600px;
+    font-size: 1.5rem;
+    background-color:aqua;
+}
+.boton-user {
+    background-color:aqua;
+    margin-left: 35px;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+.loader {
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    margin-left: 560px;
+    border-radius: 50%;
+    border-bottom: 5px solid black;
+    border-top: 5px solid orange;
+    border-left: 5px solid green;
+    border-right: 5px solid red;
+    animation: 3s infinite;
+    animation-name: spin;
+}
+.container {
+    border: 1px solid rgb(70, 70, 70);
+    height: 200px;
+    margin-top: 50px;
+    position: relative;
+    background-color: bisque;
+}
+.absolute {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    transition: 1s linear;
+}
+.card-container {
+    border: 1px solid rgb(51, 50, 50);
+    background-color: rgb(175, 235, 235);
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    max-width: 300px;
+    padding: 1rem;
+    transition: 1s;
+}
+.card:hover {
+    box-shadow: 10px 5px 5px rgb(126, 126, 126);
+}
+
+@keyframes spin {
+    0% {
+        rotate: 0deg
+    }
+    100% {
+        rotate: 360deg
+    }
+}

@@ -1,0 +1,14 @@
+.task {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.btn {
+    border-radius: 0.8rem;
+    margin-bottom: 0.5rem;
+    background-color: red;
+    color: white;
+    border: none;
+}

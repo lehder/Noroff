@@ -1,0 +1,14 @@
+.container {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    margin: auto;
+}
+.box {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: blue;
+    transition: 0.3s;
+}
