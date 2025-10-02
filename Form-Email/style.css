@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+    margin: 35px 0 20px 0 !important;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
