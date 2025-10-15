@@ -1,0 +1,69 @@
+/* .post {
+    display: block;
+    justify-content: center;
+    text-align: center;
+} */
+
+/* Estilos Generales y del Cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(251, 214, 167); /* Fondo muy claro */
+    margin: 0;
+    padding: 20px;
+    display: flex; /* Centrar el contenido */
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Estilo para el Contenedor Principal */
+.post-container {
+    width: 100%;
+    max-width: 600px; /* Limitar el ancho para mejor lectura */
+    margin-top: 20px;
+    background-color: rgb(251, 214, 167);
+}
+
+/* Estilo para cada Publicación Individual (.post) */
+.post {
+    background-color:antiquewhite; /* Fondo blanco para la tarjeta */
+    border: 1px solid #e0e6eb; /* Borde sutil */
+    border-radius: 8px; /* Esquinas redondeadas */
+    padding: 20px;
+    margin-bottom: 20px; /* Espacio entre publicaciones */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Sombra suave para efecto de elevación */
+    transition: transform 0.2s;
+}
+
+/* Efecto al pasar el ratón (opcional) */
+.post:hover {
+    transform: translateY(-3px); /* Ligeramente elevado */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el Nombre del Autor (h2) */
+.post h2 {
+    font-size: 1.4em;
+    color: #333333; /* Texto oscuro */
+    margin-top: 0;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #007bff; /* Línea de color azul debajo del nombre */
+    padding-bottom: 5px;
+    display: inline-block; /* Ajustar la línea al ancho del texto */
+}
+
+/* Estilos para el Contenido del Post (p) */
+.post p:nth-child(2) {
+    font-size: 1em;
+    color: #555555;
+    line-height: 1.6; /* Mayor espacio entre líneas para mejor lectura */
+    margin-bottom: 15px;
+    white-space: pre-wrap; /* Mantiene saltos de línea y espacios si los hay */
+}
+
+/* Estilos para la Fecha (último p) */
+.post p:last-child {
+    font-size: 0.85em;
+    color: #888888;
+    text-align: right;
+    margin-top: 10px;
+}

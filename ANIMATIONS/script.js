@@ -1,4 +1,4 @@
-/* setTimeout(()=> {
+yhu7/* setTimeout(()=> {
     alert("5secunder has passed")
 }, 5000); */
 

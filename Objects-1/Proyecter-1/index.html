@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Mascotas</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for a nice typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <div class="container mx-auto px-4 py-12">
+        <header class="text-center mb-10">
+            <h1 class="text-4xl font-bold text-gray-800">Nuestras Adorables Mascotas</h1>
+            <p class="text-lg text-gray-600 mt-2">Conoce a nuestros amigos</p>
+            <button id="favoriteButton" class="mt-4 w-full max-w-xs bg-indigo-500 text-white py-2 px-4 rounded-lg font-semibold hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-all duration-300">
+                Favorito ♡
+            </button>
+        </header>
+
+        <!-- Container where pet cards will be injected by JavaScript -->
+        <main id="pet-gallery" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+            <!-- Pet cards will be generated here -->
+        </main>
+    </div>
+
+    <!-- 2. Este es el código HTML del botón -->
+    <!-- Las clases son de Tailwind CSS y definen su apariencia: -->
+    <!-- mt-4: Margen superior -->
+    <!-- w-full max-w-xs: Ancho completo hasta un máximo -->
+    <!-- bg-indigo-500: Color de fondo -->
+    <!-- text-white: Color de texto -->
+    <!-- py-2 px-4: Relleno vertical y horizontal -->
+    <!-- rounded-lg: Bordes redondeados -->
+    <!-- font-semibold: Fuente en negrita -->
+    <!-- hover:bg-indigo-600: Cambio de color al pasar el ratón -->
+    <!-- focus:outline-none focus:ring-2... : Estilos para accesibilidad (al seleccionar con teclado) -->
+    <!-- transition-all duration-300: Animación suave en los cambios -->
+    <button id="favoriteButton" class="mt-4 w-full max-w-xs bg-indigo-500 text-white py-2 px-4 rounded-lg font-semibold hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-all duration-300">
+        Favorito ♡
+    </button>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
