@@ -1,0 +1,24 @@
+{
+    "type": "object ",
+    "properties": {
+        "name": { 
+        "type": "string",
+        "description": "Nme of this todo list" 
+    },
+    "date": {
+        "type": "string",
+        "description": "The date for the todo list"
+    },
+    "todos": {
+        "type": "array",
+        "description": "list of todo items",
+        "items": {
+            "type": "string",
+            "description": "Todo item"
+        }
+    },
+    
+  },
+  "required": ["date"]
+}
+

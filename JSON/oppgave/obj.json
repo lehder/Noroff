@@ -1,0 +1,23 @@
+{
+    "type": "object",
+    "properties": {
+        "nameAnsatt": {
+            "name1": "Heleman",
+            "floorNumber": 1,
+            "jobTask": "cleaning tables, vacuuming, cleaning stairs"
+        },
+        "nameAnsatt2": { 
+            "name2": "sergiu",
+            "floorNumber": 2,
+            "jobTask": "clean reception, elevators, and 3rd floor entrance"
+        },
+        "ansatter": {
+            "jobb": "oppgaver",
+            "description": "All work must be done within the stipulated time",
+            "items": {
+                "sections": "reception, tables, stairs, entrances, elevators"
+            }
+        }
+    },
+    "required": ["name1", "name2", "jobTask"]
+}

@@ -1,0 +1,16 @@
+body {
+    background-color: aquamarine;
+}
+.section-todo {
+    border: 1.5px solid rgb(71, 70, 70);
+    border-radius: 5px;
+    padding: 10px;
+    display:block;
+    justify-items: center;
+    width: 800px;
+    margin-left: 300px;
+    background-color: aqua;
+}
+.button-clear {
+    margin-left: 520px;
+}

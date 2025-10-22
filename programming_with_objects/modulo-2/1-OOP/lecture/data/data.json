@@ -1,0 +1,12 @@
+{
+    "key": "values",
+    "number": 2,
+    "numbers": [
+        1,
+        2,
+        3
+    ],
+    "obj": {
+        "key": "value"
+    }
+}
