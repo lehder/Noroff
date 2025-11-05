@@ -16,7 +16,7 @@
             "type": "string",
             "description": "Todo item"
         }
-    },
+    }
     
   },
   "required": ["date"]
