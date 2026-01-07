@@ -132,3 +132,9 @@ class CustomArray {
   /* arr.forEvery((item) => {
     console.log(item);
   }); */
+
+
+
+
+
+  
