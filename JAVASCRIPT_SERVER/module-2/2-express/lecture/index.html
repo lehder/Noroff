@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog front-end</title>
+    <script src="client.js" type="module"></script>
+    <style>
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        max-width: 500px;
+        margin: auto;
+      }
+      textarea {
+        min-height: 200px;
+      }
+      #blog {
+        max-width: 500px;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Blog front-end</h1>
+    <form action="">
+      <input type="text" id="input-title" />
+      <textarea name="" id="input-content"></textarea>
+      <button type="submit">Post</button>
+    </form>
+    <div id="blog">
+      <h2>tittel</h2>
+      <p>content</p>
+    </div>
+  </body>
+</html>
