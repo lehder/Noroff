@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "99ed1b9b-c6ae-48aa-ba8b-8f5afad34d12",
+		"name": "Books API V2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "1610854"
+	},
+	"item": [
+		{
+			"name": "Get all books",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"My new book\",\r\n    \"author\": \"John Doe\"\r\n}"
+				},
+				"url": "localhost:3000/books"
+			},
+			"response": []
+		},
+		{
+			"name": "Get book by ID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"My new book\",\r\n    \"author\": \"John Doe\"\r\n}"
+				},
+				"url": "localhost:3000/books/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Update (replace) book",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"title\": \"DUNE\",\r\n    \"author\": \"Frank HubertTTT\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:3000/books/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Book by ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "localhost:3000/books/2"
+			},
+			"response": []
+		},
+		{
+			"name": "Add new book",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"My new book\",\r\n    \"author\": \"John Doe\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:3000/books"
+			},
+			"response": []
+		}
+	]
+}
