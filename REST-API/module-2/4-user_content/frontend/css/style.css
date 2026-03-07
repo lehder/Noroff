@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background-color: #eee;
+  color: #222;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #222;
+}
+.main-nav {
+  display: flex;
+  gap: 1rem;
+}
+.main-nav > a {
+  color: #222;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+  margin: auto;
+  padding: 2rem;
+}
+.auth-form > label {
+  margin-top: 1rem;
+}
+
+.post-form {
+  display: flex;
+  max-width: 30rem;
+  flex-direction: column;
+  margin: auto;
+}
