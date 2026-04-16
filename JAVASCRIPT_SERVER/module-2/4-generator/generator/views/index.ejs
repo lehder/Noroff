@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <% const randomText = "random text string" %>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <p><%= content %></p>
+    <p><%= randomText%></p>
+    <% users.forEach((user)=>{%>
+    <p><%= user %></p>
+    <% }) %>
+    <br />
+    <% for (let i = 0; i<10; i++){ %>
+    <p><%= i%></p>
+    <% } %>
+  </body>
+</html>

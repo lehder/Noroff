@@ -1,0 +1,5 @@
+**/*.pdf
+**/test*
+**/pre-lecture
+**/notes.md
+node_modules
